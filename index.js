@@ -27,6 +27,7 @@ function capitalize(str){
     //     arrstr.push(arr[i].charAt(0).toUpperCase()+arr[i].slice(1,arr[i].length))
     // }
     // return arrstr.join(' ')
+    
       let capt= str.replace(/\b[a-z]/gi, function (x) {
         return x.toUpperCase();
       });
