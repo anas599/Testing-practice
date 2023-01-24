@@ -52,7 +52,7 @@ describe('calclator',()=>{
         expect(calculator.divide(10,2)).toBe(5)
     })
 })
-
+// final task
 describe("calclator", () => {
   test("multiply function", () => {
     expect(calculator.multiply(2, 2)).toBe(4);
